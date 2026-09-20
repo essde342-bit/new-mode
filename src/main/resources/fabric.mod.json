@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "spookybypass",
+  "version": "${version}",
+  "name": "SpookyBypass",
+  "description": "Fabric client project scaffold for Minecraft 1.16.5.",
+  "authors": ["Fox"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.fox.spookybypass.SpookyBypass"
+    ]
+  },
+  "mixins": [
+    "spookybypass.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "minecraft": "1.16.5",
+    "fabric": "*"
+  }
+}
